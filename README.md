@@ -83,6 +83,22 @@ You use git clone to be able to download the documents in the GitHub
 ## Installation Requirements
 Git
 
+# Project Setup
+The code calculates an individual's net salary in Kenya. Here's a concise breakdown:
+Function: Takes basic salary and benefits as input.
+
+Gross Salary: Adds basic salary and benefits.
+
+NHIF Deduction: Uses a table to determine deduction based on gross salary range.
+
+NSSF Deduction: Calculates 12% of basic salary (assumed pensionable) and splits in half.
+
+PAYE Tax: Guides user to KRA website calculator and prompts for calculated PAYE amount.
+
+Net Salary: Subtracts deductions from gross salary.
+
+Output: Displays gross salary, deductions, and net salary with labels.
+
 ### Installation instruction
 ```
 git clone git@github.com:kayliewambui/SA.01-WK1-Code-Challenge.git

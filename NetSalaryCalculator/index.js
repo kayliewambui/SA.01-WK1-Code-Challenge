@@ -56,7 +56,7 @@ function calculateNetSalary(basicSalary, benefits) {
     console.log("After using the KRA PAYE calculator, enter your calculated PAYE amount below:");
   
     //const payee = parseFloat(prompt("Enter your calculated PAYE amount (Ksh): "));
-    const payee = 11559.05 //Enter your calculated PAYE amount
+    const payee = 17559.05 //Enter your calculated PAYE amount
   
     // Net Salary
     const netSalary = grossSalary - nhifDeduction - nssfDeduction - payee;
@@ -73,7 +73,7 @@ function calculateNetSalary(basicSalary, benefits) {
   // Get user input for basic salary and benefits
   //const basicSalary = parseFloat(prompt("Enter basic salary: "));
   //const benefits = parseFloat(prompt("Enter benefits: "));
-  const basicSalary = 60000//Enter basic salary
+  const basicSalary = 80000//Enter basic salary
   const benefits = 5000//Enter benfits
   
   // Calculate and display net salary details
